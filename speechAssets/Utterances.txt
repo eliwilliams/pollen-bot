@@ -1,0 +1,36 @@
+pollenInfoIntent {Zip}
+pollenInfoIntent forecast {Zip}
+pollenInfoIntent pollen {Zip}
+pollenInfoIntent levels {Zip}
+pollenInfoIntent forecast levels {Zip}
+pollenInfoIntent pollen levels {Zip}
+pollenInfoIntent info {Zip}
+pollenInfoIntent forecast info {Zip}
+pollenInfoIntent pollen info {Zip}
+pollenInfoIntent information {Zip}
+pollenInfoIntent forecast information {Zip}
+pollenInfoIntent pollen information {Zip}
+pollenInfoIntent for {Zip}
+pollenInfoIntent forecast for {Zip}
+pollenInfoIntent pollen for {Zip}
+pollenInfoIntent levels for {Zip}
+pollenInfoIntent forecast levels for {Zip}
+pollenInfoIntent pollen levels for {Zip}
+pollenInfoIntent info for {Zip}
+pollenInfoIntent forecast info for {Zip}
+pollenInfoIntent pollen info for {Zip}
+pollenInfoIntent information for {Zip}
+pollenInfoIntent forecast information for {Zip}
+pollenInfoIntent pollen information for {Zip}
+pollenInfoIntent in {Zip}
+pollenInfoIntent forecast in {Zip}
+pollenInfoIntent pollen in {Zip}
+pollenInfoIntent levels in {Zip}
+pollenInfoIntent forecast levels in {Zip}
+pollenInfoIntent pollen levels in {Zip}
+pollenInfoIntent info in {Zip}
+pollenInfoIntent forecast info in {Zip}
+pollenInfoIntent pollen info in {Zip}
+pollenInfoIntent information in {Zip}
+pollenInfoIntent forecast information in {Zip}
+pollenInfoIntent pollen information in {Zip}

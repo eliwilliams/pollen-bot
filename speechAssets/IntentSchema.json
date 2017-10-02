@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Zip",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "pollenInfoIntent"
+    }
+  ]
+}
