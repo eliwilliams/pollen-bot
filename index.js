@@ -31,24 +31,23 @@ skill.intent('pollenInfoIntent', {
       var pollenHelper = new PollenDataHelper();
       return pollenHelper.getCityStatus(zip).then(function(cityStatus) {
         var resp = pollenHelper.formatCityStatus(cityStatus);
-        return response.say(pollenHelper.formatCityStatus(cityStatus)).send();
+        return response.say(resp).send();
       }).catch(function(err) {
         console.log("Error: " + err.statusCode);
         var error = 'I don\'t have data for the zip code ' + zip;
         response.say(error).shouldEndSession(true).send();
+        return false;
       });
-			return false;
-    }
-		else {
+    } else {
       response.say(reprompt).reprompt(reprompt).shouldEndSession(false);
       return true;
     }
-	}
+  }
 );
 
 
 var cancelIntentFunction = function(request, response) {
-	  response.say("Goodbye.").shouldEndSession(true);
+  response.say("Goodbye.").shouldEndSession(true);
 };
 
 skill.intent("AMAZON.CancelIntent", {}, cancelIntentFunction);
